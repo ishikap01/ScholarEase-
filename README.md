@@ -10,9 +10,13 @@ A web-based application developed using **Flask** and **MySQL** to manage schola
 * **Backend**: Flask (Python)
 * **Database**: MySQL (via MySQL Workbench)
 
-The frontend includes a login page and separate profile pages for each user role. The backend handles authentication, routing, and database interactions.
-
+## 📘 Project Context
+#### This project was developed as part of the course assignment that involved interacting with a centralized MySQL database shared across multiple teams. All operations related to student and admin records (adding, updating, and deleting members) were required to be performed on a common members table in the centralized cs432cims database. The Flask backend connects directly to this centralized database to perform all member-related operations. Postman was used to test these endpoints independently during development.
 ---
+
+## 📽️ Demo video 
+[Click here to watch the demo](https://drive.google.com/file/d/1Dikl56CO-rLumn2t8TsK3tO2tPNcielh/view?usp=sharing)
+
 
 ## ⚙️ Setup Instructions
 
@@ -127,6 +131,8 @@ The frontend includes a login page and separate profile pages for each user role
 #### 📬 Checking application status
 
 <img src="https://github.com/user-attachments/assets/6b64fef5-27bf-4dc1-9c36-50f5c49a0520" width="600"/>
+
+
 
 ---
 
